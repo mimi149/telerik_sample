@@ -14,7 +14,9 @@
                 data: "books"
             }
         }),
-        back: function () {},
+        back: function () {
+            app.navigate("#:back");
+        },
         settings: function () {}
     };
 
