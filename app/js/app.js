@@ -17,7 +17,9 @@
         back: function () {
             app.navigate("#:back");
         },
-        settings: function () {}
+        settings: function () {
+            app.navigate("views/settings.html");
+        }
     };
 
     document.addEventListener("deviceready", function () {
